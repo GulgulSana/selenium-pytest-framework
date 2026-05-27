@@ -1,6 +1,13 @@
 # number 8 logger created after creating html and allure report
 import logging
 import os
+log_dir = os.path.join(os.getcwd(), "logs")
+
+if not os.path.exists(log_dir):
+    os.makedirs(log_dir)
+
+log_path = os.path.join(log_dir, "automation.log")
+
 class LogGen:
 
     @staticmethod
