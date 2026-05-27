@@ -3,9 +3,10 @@ __pycache__/
 .pytest_cache/
 
 logs/
-screenshots/
+sscreenshots/
 reporttss/
 allure-report/
 allure-results/
 
+~$*.xlsx
 *.pyc
